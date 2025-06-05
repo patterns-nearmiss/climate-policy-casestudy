@@ -27,6 +27,7 @@ nearmiss-policy-patterns/
      - `cited_in_policy`  - binary if paper is cited in policy or not
      - `team_past_policy_impact`  - cummulative total prior policy citations of the authoring team.
      - `doi`  - unique id of the document.
+     - num_countries - the number of countries represented in the collaborating team. 1 = authors from 1 country, 2 = auths from 2 counries, 3, auths from 3+ countries. 
 
 2. **`export_code_notebook.html`**  
    - An export of the Databricks notebook (HTML format) containing all data-processing and analysis code.  
